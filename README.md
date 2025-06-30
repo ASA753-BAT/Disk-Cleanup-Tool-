@@ -51,6 +51,13 @@ This project is a simple **Disk Cleanup Tool** designed for Windows systems. It 
 - Consider modifying the script to only show external or removable drives for added safety.
 
 ---
+## 📄 License
 
-## 📂 Example Output
+This project is licensed under the MIT License. You are free to use, distribute, and modify it as needed.
+
+---
+
+## ✍️ Developed by
+
+[@asa753](https://github.com/ASA753-BAT)
 
