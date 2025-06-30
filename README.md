@@ -20,7 +20,8 @@ This project is a simple **Disk Cleanup Tool** designed for Windows systems. It 
 
 ## 📂 Example Output
   
-<a href="https://resimlink.com/yUaEu" title="ResimLink - Resim Yükle"><img src="https://r.resimlink.com/yUaEu.jpeg" title="ResimLink - Resim Yükle" alt="ResimLink - Resim Yükle"></a>
+![Disk Cleanup Tool](images/disk-cleanup.png)
+
 
 ---
 
