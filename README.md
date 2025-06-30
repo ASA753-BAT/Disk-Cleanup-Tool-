@@ -20,7 +20,7 @@ This project is a simple **Disk Cleanup Tool** designed for Windows systems. It 
 
 ## 📂 Example Output
   
-[![Uploading WhatsApp Image 2025-06-30 at 18.54.54.jpeg…]()](https://r.resimlink.com/yUaEu.jpeg)
+<a href="https://resimlink.com/yUaEu" title="ResimLink - Resim Yükle"><img src="https://r.resimlink.com/yUaEu.jpeg" title="ResimLink - Resim Yükle" alt="ResimLink - Resim Yükle"></a>
 
 ---
 
