@@ -20,7 +20,8 @@ This project is a simple **Disk Cleanup Tool** designed for Windows systems. It 
 
 ## 📂 Example Output
   
-![Disk Cleanup Tool](images/disk-cleanup.png)
+![Disk Cleanup Tool](https://github.com/ASA753-BAT/Disk-Cleanup-Tool-/raw/main/disk.jpeg)
+
 
 
 ---
