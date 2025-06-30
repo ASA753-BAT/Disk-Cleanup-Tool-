@@ -42,13 +42,4 @@ echo.
 pause
 goto menu
 
-## 📄 License
-
-This project is licensed under the MIT License. You are free to use, distribute, and modify it as needed.
-
----
-
-## ✍️ Developed by
-
-[@asa753](https://github.com/ASA753-BAT)
 
