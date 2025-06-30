@@ -2,28 +2,28 @@
 :menu
 cls
 echo ===============================
-echo     DISK TEMIZLEME ARACI
+echo     DISK CLEANUP TOOL
 echo ===============================
 echo.
-echo Takili Diskler:
+echo Connected Disks:
 echo -------------------------------
 wmic diskdrive get index,model,size
 echo -------------------------------
 echo.
-set /p diskno=Islem yapilacak DISK numarasini girin (sadece rakam): 
+set /p diskno=Enter the DISK number to operate on (numbers only): 
 
 echo.
-echo UYARI: Bu islem DISK %diskno% uzerindeki tum verileri SILECEK!
-set /p onay=Devam etmek istiyor musun? (E/H): 
-if /i not "%onay%"=="E" (
-    echo Islemi iptal ettiniz.
+echo WARNING: This will ERASE ALL DATA on DISK %diskno%!
+set /p confirm=Do you want to continue? (Y/N): 
+if /i not "%confirm%"=="Y" (
+    echo Operation cancelled.
     pause
     goto menu
 )
 
 echo.
-echo Islem baslatiliyor...
-echo LUTFEN BEKLEYIN...
+echo Starting operation...
+echo PLEASE WAIT...
 
 (
 echo select disk %diskno%
@@ -36,10 +36,8 @@ echo exit
 
 echo.
 echo ===============================
-echo    ISLEM TAMAMLANDI ✅
+echo    OPERATION COMPLETED ✅
 echo ===============================
 echo.
 pause
 goto menu
-
-
