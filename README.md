@@ -18,6 +18,10 @@ This project is a simple **Disk Cleanup Tool** designed for Windows systems. It 
   - Assign a drive letter
 - Displays a completion message once done
 
+## 📂 Example Output
+  
+[![Uploading WhatsApp Image 2025-06-30 at 18.54.54.jpeg…]()](https://r.resimlink.com/yUaEu.jpeg)
+
 ---
 
 ## 🖥️ How to Use
