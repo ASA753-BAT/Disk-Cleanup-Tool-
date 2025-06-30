@@ -1,4 +1,4 @@
-# disk-h-zl-bi-imlendirme-# 💽 Disk Temizleme Aracı (Windows)
+💽 Disk Temizleme Aracı (Windows)
 
 Bu proje, Windows işletim sistemlerinde kullanılmak üzere geliştirilmiş basit bir **Disk Temizleme Aracı**dır. Toplu komut dosyası (`.bat`) ile çalışır ve seçilen diski **tamamen temizleyip yeniden biçimlendirir**.
 
