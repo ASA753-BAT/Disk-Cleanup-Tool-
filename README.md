@@ -1,53 +1,56 @@
-💽 Disk Temizleme Aracı (Windows)
+# 💽 Disk Cleanup Tool (Windows)
 
-Bu proje, Windows işletim sistemlerinde kullanılmak üzere geliştirilmiş basit bir **Disk Temizleme Aracı**dır. Toplu komut dosyası (`.bat`) ile çalışır ve seçilen diski **tamamen temizleyip yeniden biçimlendirir**.
+This project is a simple **Disk Cleanup Tool** designed for Windows systems. It uses a batch script (`.bat`) to **fully wipe and reformat** the selected disk using `diskpart`.
 
-> ⚠️ **UYARI:** Bu araç, seçilen diskteki TÜM verileri kalıcı olarak siler. Dikkatli kullanınız!
-
----
-
-## 🚀 Özellikler
-
-- Bağlı diskleri listeler (model, kapasite ve index bilgisi)
-- Kullanıcıdan temizlenecek disk numarasını alır
-- İşlem öncesi onay ister
-- `diskpart` aracıyla:
-  - Diski temizler (`clean`)
-  - Yeni bir bölüm oluşturur
-  - NTFS olarak hızlı biçimlendirir
-  - Sürücü harfi atar
-- İşlem tamamlandığında kullanıcıyı bilgilendirir
+> ⚠️ **WARNING:** This tool will IRREVERSIBLY delete all data on the selected disk. Use with caution!
 
 ---
 
-## 🖥️ Kullanım
+## 🚀 Features
 
-1. Dosyayı `disk-temizle.bat` adıyla kaydedin.
-2. Dosyaya **sağ tıklayıp "Yönetici olarak çalıştır"** seçeneğiyle çalıştırın.
-3. Açılan pencerede talimatları izleyin.
+- Lists all connected physical disks (model, size, and index)
+- Prompts user to choose the disk number to clean
+- Asks for confirmation before proceeding
+- Uses `diskpart` to:
+  - Wipe the disk (`clean`)
+  - Create a new primary partition
+  - Format it as NTFS (quick format)
+  - Assign a drive letter
+- Displays a completion message once done
 
 ---
 
-## 🔐 Gereksinimler
+## 🖥️ How to Use
+
+1. Save the file as `disk-clean.bat`.
+2. **Right-click the file and choose "Run as Administrator"**.
+3. Follow the on-screen prompts carefully.
+
+---
+
+## 🔐 Requirements
 
 - Windows 10 / 11
-- Yönetici (Administrator) yetkileri
-- `diskpart` aracı (Windows ile birlikte gelir)
+- Administrator privileges
+- `diskpart` (comes pre-installed with Windows)
 
 ---
 
-## ⚠️ Uyarılar
+## ⚠️ Warnings
 
-- Yanlış disk seçimi geri döndürülemez veri kaybına yol açar.
-- Sistem diski veya aktif çalışan bir disk seçilmemelidir.
-- Verilerinizi silmeden önce mutlaka yedekleyin.
+- Selecting the wrong disk will cause permanent data loss.
+- Never use this on system drives or active disks.
+- Always back up your data before using this tool.
+
+---
+
+## 🛡️ Safety Tips
+
+- Test the script on virtual machines or external test drives before using it on real data.
+- Double-check disk information displayed by `wmic diskdrive` before proceeding.
+- Consider modifying the script to only show external or removable drives for added safety.
 
 ---
 
-## 🛡️ Güvenlik İpuçları
+## 📂 Example Output
 
-- Komut dosyasını sanal makinelerde veya test disklerinde denemeden gerçek disklerde kullanmayın.
-- Komutu çalıştırmadan önce `wmic diskdrive` ile listelenen bilgileri dikkatlice inceleyin.
-- Script’in daha güvenli çalışması için sadece harici diskleri listeleyen bir sürüm oluşturabilirsiniz.
-
----
