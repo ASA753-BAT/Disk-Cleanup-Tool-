@@ -20,7 +20,6 @@ This project is a simple **Disk Cleanup Tool** designed for Windows systems. It 
 
 ## 📂 Example Output
   
-https://raw.githubusercontent.com/ASA753-BAT/-mage/main/disk.jpeg
 
 
 
